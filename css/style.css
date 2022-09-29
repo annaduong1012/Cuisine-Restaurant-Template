@@ -18,23 +18,69 @@
 }
 
 /******************************************
-/* BASE STYLES
+/* NAV BAR
 /*******************************************/
-body {
-
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
 }
-
+nav img {
+  width: 100px;
+}
+nav ul {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
 
 /******************************************
-/* LAYOUT
+/* MAIN SECTION
 /*******************************************/
-header {
-
+.section {
+  padding: 20px 70px;
+  width: 700px;
 }
-
-footer {
-
+.social {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
 }
+main::before {
+  content: "";
+  height: 500px;
+  background-image: url('../assets/fruittopphoto.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  transform: scaleX(-1);
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+/* }
+main *, .top form {
+  transform: scaleX(-1);
+} */
 /******************************************
-/* ADDITIONAL STYLES
+/* FONT SIZES & STYLES
 /*******************************************/
+html {
+  font-size: 62.5%;
+}
+body{
+  font-size: 1.5rem;
+}
+h1 {
+  font-size: 4.5rem;
+}
+li {
+  list-style: none;
+  
+}
+a {
+  text-decoration: none;
+  color: darkgrey;
+}

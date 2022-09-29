@@ -74,6 +74,5 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Twitter - [@AnnaDuong1012](https://twitter.com/AnnaDuong1012)
 
